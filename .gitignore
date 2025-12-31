@@ -1,0 +1,15 @@
+# Virtual environments
+.venv/
+venv/
+env/
+multimcp/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Logs
+logs/

@@ -18,14 +18,24 @@ This project was built as part of an **AI/ML Developer interview assignment**.
 ## High-Level Architecture
 
 User Query
+
 │
+
 ▼
+
 ┌────────────────────────────┐
+
 │ Orchestrator │
+
 │ (ResearchWorkflow) │
+
+
 └──────────────┬─────────────┘
+
 │
+
 ▼
+
 ┌────────────────────────────┐
 │ Research Agent (MCP) │
 │ FastMCP Server (STDIO) │

@@ -1,7 +1,7 @@
 import asyncio
-import logging
 from orchestrator.workflow import ResearchWorkflow
-logging.basicConfig(level=logging.INFO)
+from config.logging_config import setup_logging
+setup_logging()
 
 
 def main():
